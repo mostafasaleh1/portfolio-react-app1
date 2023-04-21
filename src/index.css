@@ -1,0 +1,48 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   border: none;
+   outline: none;
+   list-style: none;
+   text-decoration: none;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+   --primary-hue: 270;
+   --black-lightness: 15%;
+   --dark-lightness: 44%;
+   --light-lightness: 94%;
+   --white-lightness: 100%;
+   --color-primary: hsl(var(--primary-hue), 89%, 41%);
+   --color-white: hsl(0, 5%, var(--white-lightness));
+   --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
+   --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
+   --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+
+   /*General container variables*/
+   --container-width-lg: 76%;
+   --container-width-md: 90%;
+
+   /*Border radius variables*/
+   --border-radius-1: 1.2rem;
+   --border-radius-2: 0.8rem;
+   --border-radius-3: 0.5rem;
+
+   /* General transition variable */
+   --transition: all 0.5s ease;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family:'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+   sans-serif;
+   line-height: 1.6;
+   font-size: 0.9rem;
+}
