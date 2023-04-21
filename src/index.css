@@ -46,3 +46,73 @@ body {
    line-height: 1.6;
    font-size: 0.9rem;
 }
+
+/* General container class */
+.container {
+   width: var(--container-width-lg);
+   margin-inline: auto;
+   max-width: 1920px;
+}
+
+/* General section styles */
+section {
+   padding: 10rem 0;
+   background: var(--color-light);
+   transition: var(--transition);
+}
+
+section:nth-child(even) {
+   background: var(--color-white);
+}
+
+section > h2 { /* section headings */
+   text-align: center;
+}
+
+section > p {
+   text-align: center;
+   margin: .5rem auto 4rem;
+   width: 40%;
+}
+
+/*general anchor styles*/
+a {
+   color: var(--color-white);
+   transition: var(--transition);
+}
+
+/*general headings styles*/
+h1, h2, h3, h4, h5, h6{
+   line-height: 1.1;
+}
+
+h1 {
+   font-size: 3rem;
+}
+
+h2 {
+   font-size: 2rem;
+}
+
+h3 {
+   font-size: 1.6rem;
+}
+
+h4 {
+   font-size: 1.1rem;
+}
+
+h5 {
+   font-size: .95rem;
+}
+
+h6 {
+   font-size: .8rem;
+}
+
+
+.img {
+   display: block;
+   width: 100%;
+   object-fit: cover;
+}
