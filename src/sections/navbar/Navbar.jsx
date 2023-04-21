@@ -11,11 +11,11 @@ const Navbar = () => {
                     <img src={logo} alt="Logo" />
                 </a>
                 <ul className='nav-menu'>
-                    <li key={1}><a href="#home" title='Home'>Home</a></li>
-                    <li key={2}><a href="#about" title='About'>About</a></li>
-                    <li key={3}><a href="#services" title='Services'>Services</a></li>
-                    <li key={4}><a href="#portfolio" title='Portfolio'>Portfolio</a></li>
-                    <li key={5}><a href="#contact" title='Contact'>Contact</a></li>
+                    <li><a href="#home" title='Home'>Home</a></li>
+                    <li><a href="#about" title='About'>About</a></li>
+                    <li><a href="#services" title='Services'>Services</a></li>
+                    <li><a href="#portfolio" title='Portfolio'>Portfolio</a></li>
+                    <li><a href="#contact" title='Contact'>Contact</a></li>
                 </ul>
                 <button id='theme-icon'><IoIosColorPalette /></button>
             </div>
