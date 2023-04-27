@@ -1,0 +1,51 @@
+/* Media queries for tablets */
+@media screen and (max-width: 1024) {
+   body {
+      font-size: 1rem;
+   }
+
+   .container {
+      width: var(--container-width-md);
+   }
+
+   section {
+      padding: 8rem 0;
+   }
+
+   section > p {
+      width: 72%;
+      margin-bottom: 3rem;
+   }
+
+   h1 {
+      font-size: 2rem;
+   }
+}
+
+
+/* media queries for phones */
+@media screen and (max-width: 600px) {
+   h1 {
+      font-size: 2.4rem;
+   }
+
+   h2 {
+      font-size: 1.8rem;
+   }
+
+   h3 {
+      font-size: 1.4rem;
+   }
+
+   h4 {
+      font-size: 1rem;
+   }
+
+   .btn {
+      padding: .6rem 1.5rem;
+   }
+
+   section > p {
+      width: var(--container-width-lg);
+   }
+}

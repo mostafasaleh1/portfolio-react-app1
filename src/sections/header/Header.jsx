@@ -1,7 +1,8 @@
 import React from 'react';
 import HeaderImage from "../../assets/header.jpg"
 import "./header.css";
-import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineTwitter, AiOutlineGithub } from "react-icons/ai";
+import { BsFacebook } from "react-icons/bs";
+import { AiOutlineInstagram, AiOutlineTwitter, AiOutlineGithub } from "react-icons/ai";
 
 const Header = () => {
     return (
@@ -19,7 +20,7 @@ const Header = () => {
                 <div className="header-socials">
                     <a href="https://mostafasaleh1.github.io/myprofile" target='_blank' rel='noreferrer'><AiOutlineInstagram /></a>
                     <a href="https://mostafasaleh1.github.io/myprofile" target='_blank' rel='noreferrer'><AiOutlineTwitter /></a>
-                    <a href="https://mostafasaleh1.github.io/myprofile" target='_blank' rel='noreferrer'><AiOutlineFacebook /></a>
+                    <a href="https://mostafasaleh1.github.io/myprofile" target='_blank' rel='noreferrer'><BsFacebook /></a>
                     <a href="https://mostafasaleh1.github.io/myprofile" target='_blank' rel='noreferrer'><AiOutlineGithub /></a>
                 </div>
             </div>
